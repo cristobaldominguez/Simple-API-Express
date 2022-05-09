@@ -4,6 +4,7 @@ import express from 'express'
 
 // Routes
 import mainRoutes from './routes/main.js'
+import salesRoutes from './routes/sales.js'
 
 // dotEnv Config
 dotenv.config()
@@ -17,6 +18,7 @@ app.use(express.json())
 
 // App Routes
 app.use(mainRoutes)
+app.use('/sales', salesRoutes)
 
 // 404 Page
 app.get("*", (req, res) => {
