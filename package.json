@@ -1,5 +1,5 @@
 {
-  "name": "desafio-express",
+  "name": "simple-api-express",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,18 +8,14 @@
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": {
-    "name": "Cristobal Domínguez",
-    "email": "cristobald@gmail.com"
-  },
-  "license": "ISC",
+  "author": "Cristobal Domínguez <cristobald@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.18.0",
-    "express-handlebars": "^6.0.5",
-    "pg": "^8.7.3"
-  }
+    "express": "^4.18.0"
+  },
+  "repository": "git@github.com:cristobaldominguez/Simple-API-Express.git"
 }
